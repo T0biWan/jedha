@@ -18,3 +18,8 @@ npm run build
 ``` bash
 
 ```
+
+## API
+``` json
+
+```

@@ -6,8 +6,7 @@
 # imports: 
 import numpy as np
 
-# shift the pixels of the image by a specified amount, and fill with zeros; positive and negative parameters possible
-# WORKS FOR GREYSCALE ONLY (only one color channel expected)
+# shift the pixels of the image by a specified amount, and fill with zeros; positive and negative parameters possible; expects 3D input (height, width, channels) 
 def shift(image, y_shift, x_shift):
 	# get image shape and magnitude of shifts:
 	w,h,d = image.shape
